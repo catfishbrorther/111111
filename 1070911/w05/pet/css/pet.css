@@ -1,0 +1,17 @@
+.header{
+    width: 800px;
+    height: 80px;
+    background-color: #330000;
+}
+asside{
+    width: 170px;
+    height: 400px;
+    background: url(../images/bg_lt.png);
+    float: left;
+}
+article
+{
+    width: 625px;
+    height: 400px;
+    margin-left: 171px;
+}
