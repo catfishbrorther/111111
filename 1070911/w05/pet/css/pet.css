@@ -1,9 +1,9 @@
-.header{
+header{
     width: 800px;
     height: 80px;
     background-color: #330000;
 }
-asside{
+aside{
     width: 170px;
     height: 400px;
     background: url(../images/bg_lt.png);
@@ -14,4 +14,23 @@ article
     width: 625px;
     height: 400px;
     margin-left: 171px;
+    background-color: beige;
+}
+footer{
+    width: 800px;
+    height: 50px;
+    background-color: #330000;
+}
+nav{
+    margin-top: 170px;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li a{
+    background-image: url(../images/btn.png);
+}
+nav ul li a:hover{
+    color: white;
 }
