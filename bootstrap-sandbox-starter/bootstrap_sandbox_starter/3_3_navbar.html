@@ -86,28 +86,82 @@
     <!--##################START HERE###################-->
 
     <!-- SIMPLE NAVBAR -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark mb-3">
         <div class="container">
-            <a href="#">Navbar</a>
-            <ul class="navbar-nav">
+            <a class="navbar-brand text-light" href="#">Navbar</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#N">
+            <span class=" navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="N">
+                <ul class="navbar-nav text-light">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Content</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown ">
+                        <a href="#" class="nav-link text-light dropdown-toggle" data-toggle="dropdown">Welcome Jeanne</a>
+                        <div class="dropdownmenu">
+                            <a href="#" class="nav-link ">Profile</a>
+                            <a href="#" class="nav-link ">Settings</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
+    nav class="navbar navbar-expand-sm navbar-light bg-dark mb-3">
+    <div class="container">
+        <a class="navbar-brand text-light" href="#">Navbar</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#N">
+        <span class=" navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="N">
+            <ul class="navbar-nav text-light">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">Content</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown ">
+                    <a href="#" class="nav-link text-light dropdown-toggle" data-toggle="dropdown">Welcome Jeanne</a>
+                    <div class="dropdownmenu">
+                        <a href="#" class="nav-link ">Profile</a>
+                        <a href="#" class="nav-link ">Settings</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link ">Logout</a>
                 </li>
             </ul>
         </div>
+    </div>
     </nav>
-
-    <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
-
 
     <!-- NAVBAR WITH FORM -->
 
