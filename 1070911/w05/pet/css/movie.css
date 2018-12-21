@@ -1,6 +1,6 @@
 body{
     font-family: Arial,Helvetica,sans-serif,微軟正黑體;
-    background: url(../images/bg.jpg);
+    background: url(../image/bg.jpg);
 }
 
 header{
@@ -26,7 +26,7 @@ h1#text2{
 aside{
     width: 170px;
     height: 400px;
-    background: url(../images/bg_lt.png);
+    background: url(../image/bg_lt.png);
     float: left;
 }
 article{
@@ -58,13 +58,13 @@ nav ul li a{
     display: block;
     width: 150px;
     height: 42px;
-    background-image: url(../images/btn.png);
+    background-image: url(../image/btn.png);
     text-indent: 50px;
     line-height: 35px;
 }
 
 nav ul a:hover{
-    background-image: url(../images/btn_hover.png);
+    background-image: url(../image/btn_hover.png);
     color: white;
 }
 
